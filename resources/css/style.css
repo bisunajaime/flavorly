@@ -85,7 +85,6 @@
 .content a:hover {
     transition: 0.25s;
     background-color: #48bf51;
-    color: black;
 }
 
 .image {
@@ -128,6 +127,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100%;
+    overflow: hidden;
 }
 
 .history {
@@ -173,10 +173,33 @@
     width: 20%;
     border-radius: 100px;
     background: wheat;
-    background-image: url("../img/p1.jpg");
+    background-image: url("../img/Munoz.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.5s;
+}
+
+.team .travis:hover {
+    transition: 0.5s;
+    border-radius: 0px;
+    background: #48bf51;
+    width: 100%;
+    background-position: center;
+}
+
+.t-details {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.1s;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.t-details:hover {
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .team .karlo {
@@ -184,10 +207,33 @@
     width: 20%;
     border-radius: 100px;
     background: wheat;
-    background-image: url("../img/p1.jpg");
+    background-image: url("../img/Angelo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.5s;
+}
+
+.team .karlo:hover {
+    transition: 0.5s;
+    border-radius: 0px;
+    background: #48bf51;
+    width: 100%;
+    background-position: center;
+}
+
+.k-details {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.1s;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.k-details:hover {
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .team .jaime {
@@ -195,10 +241,31 @@
     width: 20%;
     border-radius: 100px;
     background: wheat;
-    background-image: url("../img/p1.jpg");
+    background-image: url("../img/Bisuna.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.5s;
+}
+.team .jaime:hover {
+    transition: 0.5s;
+    border-radius: 0px;
+    background: #48bf51;
+    width: 100%;
+    background-position: center;
+}
+
+.j-details {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.1s;
+    text-align: center;
+    font-size: 1.2em;
+}
+.j-details:hover {
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .team .reignald {
@@ -206,14 +273,37 @@
     width: 20%;
     border-radius: 100px;
     background: wheat;
-    background-image: url("../img/p1.jpg");
+    background-image: url("../img/Tolentino.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.5s;
+}
+
+.team .reignald:hover {
+    transition: 0.5s;
+    border-radius: 0px;
+    background: #48bf51;
+    width: 100%;
+    background-position: center;
+}
+
+.r-details {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.1s;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.r-details:hover {
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .third-section {
-    height: 20vh;
+    height: 100vh;
     background-image: url("../img/p3.jpg");
     background-attachment: fixed;
     background-position: center;
